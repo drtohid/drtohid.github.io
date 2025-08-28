@@ -5,8 +5,8 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react( ),tailwindcss()],
-  base: './', // <--- CHANGE THIS LINE
+  plugins: [react( ), tailwindcss()],
+  base: '/', // Correct for a `username.github.io` repository
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
